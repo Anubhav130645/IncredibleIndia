@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    max-width: 50%;
+    margin: auto;
+    color: #333;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+    color: grey;
+}
+.coral{
+    color: coral;
+}
+
+.qualification{
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.hrline{
+    border: 1px solid coral;
+}
+
+.table-heading{
+    min-width: 300px;
+    display: block;
+}
+
+.table-props{
+    color: coral;
+    font-size: 22px;
+}
+
+.marginfix{
+    margin-top: 20px;
+}
+
+.jobheading{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.jobduration{
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.jobdescription{
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+    
+    <div class="Header">
+        <!--headter--> 
+        <img class="face" src="https://cdn.britannica.com/07/173707-050-6C97735C/Justin-Timberlake.jpg?w=400&h=300&c=crop" alt="">
+        <div class="title">
+            <h1 class="name">Justin <span class="coral">Timberlake</span></h1>
+            <div class="qualification">Web Developer & Designer</div> 
+        </div>
+        <table>
+            <tr>
+                <td>
+                    Email: <span class="coral">justintimberlake@gmail.com</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone: <span class="coral">+1234567890</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Web: <span class="coral">www.justintimberlake.com</span></td>
+
+            </tr>
+        </table>
+    </div>
+    <!--Header Done-->
+    <hr class="hrline">
+
+    <table>
+        <tr>
+            <td class="table-heading"><div class="table-props">INTRODUCTION</div></td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores incidunt impedit, fugiat veritatis nobis commodi omnis nulla expedita. Libero delectus mollitia vero illo iusto nesciunt earum fuga reprehenderit quia fugiat.</td>
+        </tr>
+    </table>
+
+<!--Work Experience-->
+
+<table class="marginfix">
+    <tr>
+        <td class="table-heading"><div class="table-props">WORK EXPERIENCE</div></td>
+        <td>
+            <div class="jobheading">Inern - Google</div>
+            <div class="jobduration"><i>March 2014-June 2017</i></div>
+            <div class="jobdescription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam molestiae beatae accusantium repellat, omnis ab deleniti, nihil tempora ipsum distinctio enim? Ex accusamus vitae aliquid eveniet libero optio nihil ea?</div>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <div class="jobheading">Software Engineer - Facebook</div>
+            <div class="jobduration"><i>July 2017-June 2019</i></div>
+            <div class="jobdescription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam molestiae beatae accusantium repellat, omnis ab deleniti, nihil tempora ipsum distinctio enim? Ex accusamus vitae aliquid eveniet libero optio nihil ea?</div>
+        </td>
+    </tr>
+</table>
+
+<!--Education-->
+
+<table class="marginfix">
+    <tr>
+        <td class="table-heading"><div class="table-props">EDUCATION</div></td>
+        <td>
+            <div class="jobheading">St. Andrew's College</div>
+            <div class="jobduration"><i>Higher Education</i></div>
+            <div class="jobdescription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam molestiae beatae accusantium repellat, omnis ab deleniti, nihil tempora ipsum distinctio enim? Ex accusamus vitae aliquid eveniet libero optio nihil ea?</div>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <div class="jobheading">Inidan Institute of Technology</div>
+            <div class="jobdescription"><i>Master of Science</i></div>
+            <div class="jobdescription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam molestiae beatae accusantium repellat, omnis ab deleniti, nihil tempora ipsum distinctio enim? Ex accusamus vitae aliquid eveniet libero optio nihil ea?</div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
